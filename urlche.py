@@ -110,7 +110,7 @@ def check_with_scraping(url):
         return False, str(e)
 
 def main():
-    st.title("Bulk URL Checker with CSV Download")
+    st.title("URL status Checker")
     st.write(
         "Enter one or more URLs (one per line). The app first attempts a direct (scraping) check. "
         "If that check succeeds, the URL is marked as active (direct) and no further check is done. "
